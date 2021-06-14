@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Add Map</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    
+  </head>
+  <body>
+    <h3>My Google Maps Demo</h3>
+   
+    <div id="map"></div>
+    <div>   
+        <h1>Your current cords</h1>
+        <div id="display-lat">Click on any marker</div>
+        <div id="display-lng"></div>
+        <button id="clear-all-markers">Clear All Markers</button>
+    </div>
+    
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvM4iLAF2X0PtoyFasjz-qpy3Qe-OLtQk&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
